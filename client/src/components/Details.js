@@ -39,9 +39,9 @@ function Details({games}){
         game ? 
         <GameDetail {...game}/>
         :
-        <h1>
+        <h5>
             {loaded ? 'Game not found.' : 'Loading...'}
-        </h1>
+        </h5>
     )
 }
 

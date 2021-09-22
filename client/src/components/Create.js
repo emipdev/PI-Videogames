@@ -12,7 +12,7 @@ function Create(){
         background_image: ""
     })
     const [genres,setGenres] = useState([]);
-    const [result, setResult] = useState("Hello there!");
+    const [result, setResult] = useState("");
     const divErr = useRef();
     const divCov = useRef();
     useEffect(() => {
